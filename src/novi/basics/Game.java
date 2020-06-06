@@ -110,7 +110,7 @@ public class Game {
             String result = chekWinner();
             if (result.length() > 0) {
                 System.out.println(result);
-                break;
+
             }
 
 
@@ -154,7 +154,7 @@ public class Game {
             if (PLAYERPOSITION.containsAll(l)) {
                 player1.addscore();
                 return player1.getName() + " score: " + player1.getScore() + "\n" + player2.getName() + " score: " + player2.getScore() + "\n" + "drawcount: " + "" + drawCount;
-              
+
 
             } else if (PLAYER2POSITION.containsAll(l)) {
                 player2.addscore();
